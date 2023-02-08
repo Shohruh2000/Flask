@@ -16,5 +16,9 @@ def home():
 def salom():
     return "<h1> Salom  </h1>"
 
+@app.route("/about")
+def about():
+    return "<h1> Abaout page  </h1>"
+
 if __name__ == "__main__":
     app.run()
