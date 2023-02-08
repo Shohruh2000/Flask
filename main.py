@@ -11,7 +11,10 @@ def hello_world():
 
 def home():
     return "<h1> home page! </h1>"
-    
+
+@app.route("/salom")
+def salom():
+    return "<h1> Salom  </h1>"
 
 if __name__ == "__main__":
     app.run()
